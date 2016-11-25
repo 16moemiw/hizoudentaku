@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E7CB2B71DE849920061A961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CB2B61DE849920061A961 /* AppDelegate.swift */; };
+		8E7CB2B91DE849920061A961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CB2B81DE849920061A961 /* ViewController.swift */; };
+		8E7CB2BC1DE849920061A961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CB2BA1DE849920061A961 /* Main.storyboard */; };
+		8E7CB2BE1DE849920061A961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CB2BD1DE849920061A961 /* Assets.xcassets */; };
+		8E7CB2C11DE849920061A961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CB2BF1DE849920061A961 /* LaunchScreen.storyboard */; };
+		8E7CB2CC1DE849930061A961 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CB2CB1DE849930061A961 /* ____Tests.swift */; };
+		8E7CB2D71DE849930061A961 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CB2D61DE849930061A961 /* ____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E7CB2C81DE849930061A961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E7CB2AB1DE849920061A961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E7CB2B21DE849920061A961;
+			remoteInfo = "秘蔵電卓";
+		};
+		8E7CB2D31DE849930061A961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E7CB2AB1DE849920061A961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E7CB2B21DE849920061A961;
+			remoteInfo = "秘蔵電卓";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E7CB2B31DE849920061A961 /* 秘蔵電卓.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "秘蔵電卓.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7CB2B61DE849920061A961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E7CB2B81DE849920061A961 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E7CB2BB1DE849920061A961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E7CB2BD1DE849920061A961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E7CB2C01DE849920061A961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E7CB2C21DE849920061A961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7CB2C71DE849930061A961 /* 秘蔵電卓Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "秘蔵電卓Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7CB2CB1DE849930061A961 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		8E7CB2CD1DE849930061A961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7CB2D21DE849930061A961 /* 秘蔵電卓UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "秘蔵電卓UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7CB2D61DE849930061A961 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		8E7CB2D81DE849930061A961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E7CB2B01DE849920061A961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7CB2C41DE849930061A961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7CB2CF1DE849930061A961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E7CB2AA1DE849920061A961 = {
+			isa = PBXGroup;
+			children = (
+				8E7CB2B51DE849920061A961 /* 秘蔵電卓 */,
+				8E7CB2CA1DE849930061A961 /* 秘蔵電卓Tests */,
+				8E7CB2D51DE849930061A961 /* 秘蔵電卓UITests */,
+				8E7CB2B41DE849920061A961 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E7CB2B41DE849920061A961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E7CB2B31DE849920061A961 /* 秘蔵電卓.app */,
+				8E7CB2C71DE849930061A961 /* 秘蔵電卓Tests.xctest */,
+				8E7CB2D21DE849930061A961 /* 秘蔵電卓UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E7CB2B51DE849920061A961 /* 秘蔵電卓 */ = {
+			isa = PBXGroup;
+			children = (
+				8E7CB2B61DE849920061A961 /* AppDelegate.swift */,
+				8E7CB2B81DE849920061A961 /* ViewController.swift */,
+				8E7CB2BA1DE849920061A961 /* Main.storyboard */,
+				8E7CB2BD1DE849920061A961 /* Assets.xcassets */,
+				8E7CB2BF1DE849920061A961 /* LaunchScreen.storyboard */,
+				8E7CB2C21DE849920061A961 /* Info.plist */,
+			);
+			path = "秘蔵電卓";
+			sourceTree = "<group>";
+		};
+		8E7CB2CA1DE849930061A961 /* 秘蔵電卓Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8E7CB2CB1DE849930061A961 /* ____Tests.swift */,
+				8E7CB2CD1DE849930061A961 /* Info.plist */,
+			);
+			path = "秘蔵電卓Tests";
+			sourceTree = "<group>";
+		};
+		8E7CB2D51DE849930061A961 /* 秘蔵電卓UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E7CB2D61DE849930061A961 /* ____UITests.swift */,
+				8E7CB2D81DE849930061A961 /* Info.plist */,
+			);
+			path = "秘蔵電卓UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E7CB2B21DE849920061A961 /* 秘蔵電卓 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7CB2DB1DE849930061A961 /* Build configuration list for PBXNativeTarget "秘蔵電卓" */;
+			buildPhases = (
+				8E7CB2AF1DE849920061A961 /* Sources */,
+				8E7CB2B01DE849920061A961 /* Frameworks */,
+				8E7CB2B11DE849920061A961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "秘蔵電卓";
+			productName = "秘蔵電卓";
+			productReference = 8E7CB2B31DE849920061A961 /* 秘蔵電卓.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E7CB2C61DE849930061A961 /* 秘蔵電卓Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7CB2DE1DE849930061A961 /* Build configuration list for PBXNativeTarget "秘蔵電卓Tests" */;
+			buildPhases = (
+				8E7CB2C31DE849930061A961 /* Sources */,
+				8E7CB2C41DE849930061A961 /* Frameworks */,
+				8E7CB2C51DE849930061A961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E7CB2C91DE849930061A961 /* PBXTargetDependency */,
+			);
+			name = "秘蔵電卓Tests";
+			productName = "秘蔵電卓Tests";
+			productReference = 8E7CB2C71DE849930061A961 /* 秘蔵電卓Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E7CB2D11DE849930061A961 /* 秘蔵電卓UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7CB2E11DE849930061A961 /* Build configuration list for PBXNativeTarget "秘蔵電卓UITests" */;
+			buildPhases = (
+				8E7CB2CE1DE849930061A961 /* Sources */,
+				8E7CB2CF1DE849930061A961 /* Frameworks */,
+				8E7CB2D01DE849930061A961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E7CB2D41DE849930061A961 /* PBXTargetDependency */,
+			);
+			name = "秘蔵電卓UITests";
+			productName = "秘蔵電卓UITests";
+			productReference = 8E7CB2D21DE849930061A961 /* 秘蔵電卓UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E7CB2AB1DE849920061A961 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Moemi Watanabe";
+				TargetAttributes = {
+					8E7CB2B21DE849920061A961 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8E7CB2C61DE849930061A961 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8E7CB2B21DE849920061A961;
+					};
+					8E7CB2D11DE849930061A961 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8E7CB2B21DE849920061A961;
+					};
+				};
+			};
+			buildConfigurationList = 8E7CB2AE1DE849920061A961 /* Build configuration list for PBXProject "秘蔵電卓" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E7CB2AA1DE849920061A961;
+			productRefGroup = 8E7CB2B41DE849920061A961 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E7CB2B21DE849920061A961 /* 秘蔵電卓 */,
+				8E7CB2C61DE849930061A961 /* 秘蔵電卓Tests */,
+				8E7CB2D11DE849930061A961 /* 秘蔵電卓UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E7CB2B11DE849920061A961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7CB2C11DE849920061A961 /* LaunchScreen.storyboard in Resources */,
+				8E7CB2BE1DE849920061A961 /* Assets.xcassets in Resources */,
+				8E7CB2BC1DE849920061A961 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7CB2C51DE849930061A961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7CB2D01DE849930061A961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E7CB2AF1DE849920061A961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7CB2B91DE849920061A961 /* ViewController.swift in Sources */,
+				8E7CB2B71DE849920061A961 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7CB2C31DE849930061A961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7CB2CC1DE849930061A961 /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7CB2CE1DE849930061A961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7CB2D71DE849930061A961 /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E7CB2C91DE849930061A961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E7CB2B21DE849920061A961 /* 秘蔵電卓 */;
+			targetProxy = 8E7CB2C81DE849930061A961 /* PBXContainerItemProxy */;
+		};
+		8E7CB2D41DE849930061A961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E7CB2B21DE849920061A961 /* 秘蔵電卓 */;
+			targetProxy = 8E7CB2D31DE849930061A961 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E7CB2BA1DE849920061A961 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E7CB2BB1DE849920061A961 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E7CB2BF1DE849920061A961 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E7CB2C01DE849920061A961 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E7CB2D91DE849930061A961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E7CB2DA1DE849930061A961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E7CB2DC1DE849930061A961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "秘蔵電卓/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litrch.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E7CB2DD1DE849930061A961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "秘蔵電卓/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litrch.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E7CB2DF1DE849930061A961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "秘蔵電卓Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litrch.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/秘蔵電卓.app/秘蔵電卓";
+			};
+			name = Debug;
+		};
+		8E7CB2E01DE849930061A961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "秘蔵電卓Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litrch.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/秘蔵電卓.app/秘蔵電卓";
+			};
+			name = Release;
+		};
+		8E7CB2E21DE849930061A961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "秘蔵電卓UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litrch.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "秘蔵電卓";
+			};
+			name = Debug;
+		};
+		8E7CB2E31DE849930061A961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "秘蔵電卓UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litrch.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "秘蔵電卓";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E7CB2AE1DE849920061A961 /* Build configuration list for PBXProject "秘蔵電卓" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7CB2D91DE849930061A961 /* Debug */,
+				8E7CB2DA1DE849930061A961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7CB2DB1DE849930061A961 /* Build configuration list for PBXNativeTarget "秘蔵電卓" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7CB2DC1DE849930061A961 /* Debug */,
+				8E7CB2DD1DE849930061A961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E7CB2DE1DE849930061A961 /* Build configuration list for PBXNativeTarget "秘蔵電卓Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7CB2DF1DE849930061A961 /* Debug */,
+				8E7CB2E01DE849930061A961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E7CB2E11DE849930061A961 /* Build configuration list for PBXNativeTarget "秘蔵電卓UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7CB2E21DE849930061A961 /* Debug */,
+				8E7CB2E31DE849930061A961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E7CB2AB1DE849920061A961 /* Project object */;
+}
