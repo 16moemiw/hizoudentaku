@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E25A5FE1DFAC46200A20C97 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E25A5FD1DFAC46200A20C97 /* PhotosViewController.swift */; };
 		8E7CB2B71DE849920061A961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CB2B61DE849920061A961 /* AppDelegate.swift */; };
 		8E7CB2B91DE849920061A961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CB2B81DE849920061A961 /* ViewController.swift */; };
 		8E7CB2BC1DE849920061A961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CB2BA1DE849920061A961 /* Main.storyboard */; };
@@ -14,6 +15,14 @@
 		8E7CB2C11DE849920061A961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CB2BF1DE849920061A961 /* LaunchScreen.storyboard */; };
 		8E7CB2CC1DE849930061A961 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CB2CB1DE849930061A961 /* ____Tests.swift */; };
 		8E7CB2D71DE849930061A961 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CB2D61DE849930061A961 /* ____UITests.swift */; };
+		8E7CB2EA1DE84E340061A961 /* images-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CB2E51DE84E340061A961 /* images-1.jpeg */; };
+		8E7CB2EB1DE84E340061A961 /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CB2E61DE84E340061A961 /* images-2.jpeg */; };
+		8E7CB2EC1DE84E340061A961 /* images-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CB2E71DE84E340061A961 /* images-3.jpeg */; };
+		8E7CB2ED1DE84E340061A961 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CB2E81DE84E340061A961 /* images.jpeg */; };
+		8E7CB2EE1DE84E340061A961 /* Unknown.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CB2E91DE84E340061A961 /* Unknown.jpeg */; };
+		8E7CB2F01DE853FA0061A961 /* black-icon-glossy-crystal-button-square-buttons.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CB2EF1DE853FA0061A961 /* black-icon-glossy-crystal-button-square-buttons.jpeg */; };
+		8E7CB2F21DE854E20061A961 /* 041910-3d-transparent-glass-icon-sports-hobbies-ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CB2F11DE854E20061A961 /* 041910-3d-transparent-glass-icon-sports-hobbies-ball.png */; };
+		8E7CB2F61DF17FC80061A961 /* clear rectangle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CB2F51DF17FC80061A961 /* clear rectangle.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E25A5FD1DFAC46200A20C97 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		8E7CB2B31DE849920061A961 /* 秘蔵電卓.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "秘蔵電卓.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7CB2B61DE849920061A961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E7CB2B81DE849920061A961 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,14 @@
 		8E7CB2D21DE849930061A961 /* 秘蔵電卓UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "秘蔵電卓UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7CB2D61DE849930061A961 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
 		8E7CB2D81DE849930061A961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7CB2E51DE84E340061A961 /* images-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpeg"; sourceTree = "<group>"; };
+		8E7CB2E61DE84E340061A961 /* images-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpeg"; sourceTree = "<group>"; };
+		8E7CB2E71DE84E340061A961 /* images-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-3.jpeg"; sourceTree = "<group>"; };
+		8E7CB2E81DE84E340061A961 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		8E7CB2E91DE84E340061A961 /* Unknown.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown.jpeg; sourceTree = "<group>"; };
+		8E7CB2EF1DE853FA0061A961 /* black-icon-glossy-crystal-button-square-buttons.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "black-icon-glossy-crystal-button-square-buttons.jpeg"; sourceTree = "<group>"; };
+		8E7CB2F11DE854E20061A961 /* 041910-3d-transparent-glass-icon-sports-hobbies-ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "041910-3d-transparent-glass-icon-sports-hobbies-ball.png"; sourceTree = "<group>"; };
+		8E7CB2F51DF17FC80061A961 /* clear rectangle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "clear rectangle.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,7 @@
 		8E7CB2AA1DE849920061A961 = {
 			isa = PBXGroup;
 			children = (
+				8E25A5FD1DFAC46200A20C97 /* PhotosViewController.swift */,
 				8E7CB2B51DE849920061A961 /* 秘蔵電卓 */,
 				8E7CB2CA1DE849930061A961 /* 秘蔵電卓Tests */,
 				8E7CB2D51DE849930061A961 /* 秘蔵電卓UITests */,
@@ -100,6 +119,7 @@
 				8E7CB2B61DE849920061A961 /* AppDelegate.swift */,
 				8E7CB2B81DE849920061A961 /* ViewController.swift */,
 				8E7CB2BA1DE849920061A961 /* Main.storyboard */,
+				8E7CB2E41DE84E340061A961 /* shades */,
 				8E7CB2BD1DE849920061A961 /* Assets.xcassets */,
 				8E7CB2BF1DE849920061A961 /* LaunchScreen.storyboard */,
 				8E7CB2C21DE849920061A961 /* Info.plist */,
@@ -123,6 +143,21 @@
 				8E7CB2D81DE849930061A961 /* Info.plist */,
 			);
 			path = "秘蔵電卓UITests";
+			sourceTree = "<group>";
+		};
+		8E7CB2E41DE84E340061A961 /* shades */ = {
+			isa = PBXGroup;
+			children = (
+				8E7CB2E51DE84E340061A961 /* images-1.jpeg */,
+				8E7CB2F51DF17FC80061A961 /* clear rectangle.jpg */,
+				8E7CB2E61DE84E340061A961 /* images-2.jpeg */,
+				8E7CB2F11DE854E20061A961 /* 041910-3d-transparent-glass-icon-sports-hobbies-ball.png */,
+				8E7CB2EF1DE853FA0061A961 /* black-icon-glossy-crystal-button-square-buttons.jpeg */,
+				8E7CB2E71DE84E340061A961 /* images-3.jpeg */,
+				8E7CB2E81DE84E340061A961 /* images.jpeg */,
+				8E7CB2E91DE84E340061A961 /* Unknown.jpeg */,
+			);
+			path = shades;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +264,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E7CB2EE1DE84E340061A961 /* Unknown.jpeg in Resources */,
 				8E7CB2C11DE849920061A961 /* LaunchScreen.storyboard in Resources */,
+				8E7CB2F01DE853FA0061A961 /* black-icon-glossy-crystal-button-square-buttons.jpeg in Resources */,
+				8E7CB2EC1DE84E340061A961 /* images-3.jpeg in Resources */,
+				8E7CB2EA1DE84E340061A961 /* images-1.jpeg in Resources */,
+				8E7CB2ED1DE84E340061A961 /* images.jpeg in Resources */,
+				8E7CB2F61DF17FC80061A961 /* clear rectangle.jpg in Resources */,
 				8E7CB2BE1DE849920061A961 /* Assets.xcassets in Resources */,
 				8E7CB2BC1DE849920061A961 /* Main.storyboard in Resources */,
+				8E7CB2EB1DE84E340061A961 /* images-2.jpeg in Resources */,
+				8E7CB2F21DE854E20061A961 /* 041910-3d-transparent-glass-icon-sports-hobbies-ball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E25A5FE1DFAC46200A20C97 /* PhotosViewController.swift in Sources */,
 				8E7CB2B91DE849920061A961 /* ViewController.swift in Sources */,
 				8E7CB2B71DE849920061A961 /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +526,7 @@
 				8E7CB2DD1DE849930061A961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E7CB2DE1DE849930061A961 /* Build configuration list for PBXNativeTarget "秘蔵電卓Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +535,7 @@
 				8E7CB2E01DE849930061A961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E7CB2E11DE849930061A961 /* Build configuration list for PBXNativeTarget "秘蔵電卓UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +544,7 @@
 				8E7CB2E31DE849930061A961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
