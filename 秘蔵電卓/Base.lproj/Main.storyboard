@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -17,22 +17,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="WCh-5G-KdZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="linecamera_shareimage 3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WCh-5G-KdZ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqQ-iB-Vvf">
                                 <rect key="frame" x="24" y="490" width="198" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="clear" backgroundImage="041910-3d-transparent-glass-icon-sports-hobbies-ball.png">
-                                    <color key="titleColor" red="0.83786662919999999" green="0.90197113799999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="clear" destination="BYZ-38-t0r" eventType="touchUpInside" id="BV1-g7-kBQ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="But-Yz-mMZ">
-                                <rect key="frame" x="41" y="70" width="239" height="46"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="But-Yz-mMZ">
+                                <rect key="frame" x="13" y="46" width="295" height="74"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -40,7 +41,7 @@
                                 <rect key="frame" x="24" y="445" width="198" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="enter" backgroundImage="041910-3d-transparent-glass-icon-sports-hobbies-ball.png">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="enter" destination="BYZ-38-t0r" eventType="touchUpInside" id="a8Q-xz-et4"/>
@@ -50,7 +51,7 @@
                                 <rect key="frame" x="11" y="191" width="74" height="76"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="1" backgroundImage="041910-3d-transparent-glass-icon-sports-hobbies-ball.png">
-                                    <color key="titleColor" red="0.83786662919999999" green="0.90197113799999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="one" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Dr-LX-m79"/>
@@ -60,7 +61,7 @@
                                 <rect key="frame" x="85" y="190" width="75" height="79"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="2" backgroundImage="041910-3d-transparent-glass-icon-sports-hobbies-ball.png">
-                                    <color key="titleColor" red="0.83786662919999999" green="0.90197113799999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="two" destination="BYZ-38-t0r" eventType="touchUpInside" id="RfH-AG-Mi0"/>
@@ -70,7 +71,7 @@
                                 <rect key="frame" x="156" y="190" width="75" height="77"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="3" backgroundImage="041910-3d-transparent-glass-icon-sports-hobbies-ball.png">
-                                    <color key="titleColor" red="0.83786662919999999" green="0.90197113799999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="three" destination="BYZ-38-t0r" eventType="touchUpInside" id="gHj-IL-GLh"/>
@@ -80,27 +81,17 @@
                                 <rect key="frame" x="11" y="277" width="74" height="76"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="4" backgroundImage="041910-3d-transparent-glass-icon-sports-hobbies-ball.png">
-                                    <color key="titleColor" red="0.83786662919999999" green="0.90197113799999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="four" destination="BYZ-38-t0r" eventType="touchUpInside" id="EUo-g6-NxP"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3GZ-nL-AwA">
-                                <rect key="frame" x="85" y="277" width="74" height="76"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="5" backgroundImage="041910-3d-transparent-glass-icon-sports-hobbies-ball.png">
-                                    <color key="titleColor" red="0.83786662919999999" green="0.90197113799999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="five" destination="BYZ-38-t0r" eventType="touchUpInside" id="JjU-9u-xJv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LbE-kT-8zw">
                                 <rect key="frame" x="156" y="277" width="74" height="76"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="6" backgroundImage="041910-3d-transparent-glass-icon-sports-hobbies-ball.png">
-                                    <color key="titleColor" red="0.83786662919999999" green="0.90197113799999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="six" destination="BYZ-38-t0r" eventType="touchUpInside" id="ad4-9h-iFN"/>
@@ -110,7 +101,7 @@
                                 <rect key="frame" x="11" y="361" width="74" height="76"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="7" backgroundImage="041910-3d-transparent-glass-icon-sports-hobbies-ball.png">
-                                    <color key="titleColor" red="0.83786662919999999" green="0.90197113799999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="seven" destination="BYZ-38-t0r" eventType="touchUpInside" id="rJD-jh-3kM"/>
@@ -120,7 +111,7 @@
                                 <rect key="frame" x="156" y="361" width="74" height="76"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="9" backgroundImage="041910-3d-transparent-glass-icon-sports-hobbies-ball.png">
-                                    <color key="titleColor" red="0.83786662919999999" green="0.90197113799999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="nine" destination="BYZ-38-t0r" eventType="touchUpInside" id="kWY-qK-wbw"/>
@@ -130,7 +121,7 @@
                                 <rect key="frame" x="226" y="192" width="74" height="76"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <state key="normal" title="+" backgroundImage="041910-3d-transparent-glass-icon-sports-hobbies-ball.png">
-                                    <color key="titleColor" red="0.83786662919999999" green="0.90197113799999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="add" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gvj-1u-Jhx"/>
@@ -140,31 +131,41 @@
                                 <rect key="frame" x="226" y="276" width="74" height="76"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="55"/>
                                 <state key="normal" title="-" backgroundImage="041910-3d-transparent-glass-icon-sports-hobbies-ball.png">
-                                    <color key="titleColor" red="0.83786662919999999" green="0.90197113799999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Xk-zZ-3bD">
                                 <rect key="frame" x="226" y="445" width="74" height="76"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <state key="normal" title="×" backgroundImage="041910-3d-transparent-glass-icon-sports-hobbies-ball.png">
-                                    <color key="titleColor" red="0.83786662919999999" green="0.90197113799999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4L-gF-ci7">
                                 <rect key="frame" x="226" y="361" width="74" height="76"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="÷" backgroundImage="041910-3d-transparent-glass-icon-sports-hobbies-ball.png">
-                                    <color key="titleColor" red="0.83786662919999999" green="0.90197113799999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vP7-xF-DIX">
                                 <rect key="frame" x="85" y="361" width="74" height="76"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="8" backgroundImage="041910-3d-transparent-glass-icon-sports-hobbies-ball.png">
-                                    <color key="titleColor" red="0.83786662919999999" green="0.90197113799999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="eight" destination="BYZ-38-t0r" eventType="touchUpInside" id="kyu-gf-U98"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3GZ-nL-AwA">
+                                <rect key="frame" x="85" y="277" width="74" height="76"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="5" backgroundImage="041910-3d-transparent-glass-icon-sports-hobbies-ball.png">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="five" destination="BYZ-38-t0r" eventType="touchUpInside" id="JjU-9u-xJv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -191,9 +192,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="linecamera_shareimage 4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ots-O0-v6L">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAS-RV-U45">
+                                <rect key="frame" x="234" y="40" width="80" height="36"/>
+                                <color key="backgroundColor" red="0.81787870475908164" green="1" blue="0.78842516929571316" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="back">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="back" destination="gcN-UM-67W" eventType="touchUpInside" id="abr-gH-goC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRK-v7-Vb2">
+                                <rect key="frame" x="5" y="40" width="80" height="36"/>
+                                <color key="backgroundColor" red="0.81787870480000002" green="1" blue="0.78842516929999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="add new">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addnew" destination="gcN-UM-67W" eventType="touchUpInside" id="jW5-DF-Es1"/>
+                                </connections>
+                            </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="rSJ-bL-PQa">
                                 <rect key="frame" x="0.0" y="119" width="320" height="449"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Wyt-zz-Ygk">
                                     <size key="itemSize" width="83" height="78"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -217,30 +241,59 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAS-RV-U45">
-                                <rect key="frame" x="234" y="40" width="80" height="36"/>
-                                <color key="backgroundColor" red="0.80740000219999997" green="0.70752935859999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="back">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="back" destination="gcN-UM-67W" eventType="touchUpInside" id="V0N-Ve-0Ck"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="rSJ-bL-PQa" id="89c-A6-HDA"/>
+                        <outlet property="imageView" destination="ots-O0-v6L" id="eNk-va-X5U"/>
+                        <segue destination="WXH-JS-5ST" kind="modal" identifier="OpenPhotos" id="ZFP-wL-B8N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nXX-CP-f51" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="552" y="368"/>
         </scene>
+        <!--Open Photos View Controller-->
+        <scene sceneID="aPL-fv-i05">
+            <objects>
+                <viewController id="WXH-JS-5ST" customClass="OpenPhotosViewController" customModule="秘蔵電卓" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s1d-R3-ywU"/>
+                        <viewControllerLayoutGuide type="bottom" id="V7z-Yh-QM8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aNP-4u-3Ch">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AX4-0e-cWb">
+                                <rect key="frame" x="219" y="28" width="81" height="35"/>
+                                <color key="backgroundColor" red="0.81787870480000002" green="1" blue="0.78842516929999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="back" destination="WXH-JS-5ST" eventType="touchUpInside" id="ShG-i8-fNh"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wqC-ny-k93">
+                                <rect key="frame" x="0.0" y="91" width="320" height="397"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="wqC-ny-k93" id="fbX-kg-sIH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oa8-O7-oY5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="947" y="368"/>
+        </scene>
     </scenes>
     <resources>
         <image name="041910-3d-transparent-glass-icon-sports-hobbies-ball.png" width="256" height="256"/>
-        <image name="Unknown.jpeg" width="300" height="168"/>
+        <image name="linecamera_shareimage 3.jpg" width="960" height="1280"/>
+        <image name="linecamera_shareimage 4.jpg" width="960" height="1280"/>
     </resources>
 </document>
