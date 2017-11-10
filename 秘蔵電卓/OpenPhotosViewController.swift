@@ -10,10 +10,10 @@ import UIKit
 
 class OpenPhotosViewController: UIViewController, UINavigationControllerDelegate{
 
-        var photos: [UIImage] = []
-        @IBOutlet var imageView: UIImageView!
-        let photoData: NSUserDefaults = NSUserDefaults.standardUserDefaults()
-
+    var photos: [UIImage] = []
+    @IBOutlet var imageView: UIImageView!
+    let photoData: NSUserDefaults = NSUserDefaults.standardUserDefaults()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
